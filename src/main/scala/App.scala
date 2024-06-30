@@ -5,7 +5,7 @@ import scala.util.Random
 object App {
 
   def startProducer(): Unit = {
-    println("starting producer")
+    println("running producer")
     val statuses = List("accepted", "rejected")
     val status = statuses(Random.nextInt(statuses.length))
     while (true) {
